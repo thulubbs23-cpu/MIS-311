@@ -12,13 +12,15 @@
 ### **Data Cleaning**
 * Missing values: **4 values**
   - _Average monthly income column_: 2 missing values ( C162, C178)  
-  - _Region column_: 2 missing values ( E26, E39)  
-**Handling missing values:**
-- The 2 missing values in the average monthly income column were removed because they represent a very small proportion of the dataset (less than 2%) and could bias affordability calculations if imputed.
-- The 2 missing values in the region column were removed due to insufficient information for accurate classification.
-- Overall, the 4 missing values account for approximately **1.99% of the total 201 observations**, which is unlikely to significantly affect the analysis.
+  - _Region column_: 2 missing values ( E26, E39)
+* Handling missing values:
+  - The 2 missing values in the average monthly income column were removed because they represent a very small proportion of the dataset (less than 2%) and could bias affordability calculations if imputed.
+  - The 2 missing values in the region column were removed due to insufficient information for accurate classification.
+  - Overall, the 4 missing values account for approximately **1.99% of the total 201 observations**, which is unlikely to significantly affect the analysis.
 * Duplicate row: **2 duplicate rows** were found and removed
-=> Handling duplicate rows: delete the 2 duplicate rows because they do not carry additional information and do not affect the analysis. The two duplicate rows account for about 0.99% of the total 201 rows. Duplicate rows cause statistical bias, degrade machine learning model performance due to redundant data learning, and disrupt record uniqueness while consuming storage space. Therefore, removing them is necessary to ensure accurate and efficient analysis.  
+* Handling duplicate rows:
+   - Delete the 2 duplicate rows because they do not carry additional information and do not affect the analysis.
+   - 2 duplicate rows account for about 0.99% of the total 201 rows. Duplicate rows may distort summary statistics and averages by counting the same observation more than once. Removing them ensures that each record is unique and that descriptive statistics are calculated accurately.
 => After  handling missing values and duplicate records, there are 195 rows and 5 columns left.  
  
 ### **Descriptive Statistics**
@@ -28,6 +30,9 @@
 The descriptive statistics show that the **mean monthly income** is **4264.53**, while the median is **4270.40**. Since the mean and median are very close, this suggests the income distribution is **relatively balanced** and not heavily skewed. However, the **standard deviation** is high **(2124.11)**, indicating that monthly income levels vary substantially across different countries and years. The income values range widely from **a minimum of 534.74** to a **maximum of 7976.56**, highlighting significant economic differences among the observations.
 ## Cost of living ##
 The descriptive statistics show that the **mean cost of living** is **3703.59**, while the median is **3649.03**, indicating a **relatively balanced distribution** without strong skewness. However, the standard deviation is high **(1983.30)**, suggesting that living expenses vary considerably across different countries and regions. The cost of living ranges from a **minimum of 464.49** to a **maximum of 6981.02**, highlighting substantial differences in living standards and economic conditions worldwide.
+
+ Overall, both income and cost of living show relatively balanced distributions but high variability, suggesting that affordability differences are likely to appear across regions and countries.
+
 
 ## Key Insights
 **Insight 1:**  
@@ -39,7 +44,7 @@ The chart shows clear regional differences in both **average cost of living** an
 **Insight 2:**  
 <img width="1048" height="501" alt="image" src="https://github.com/user-attachments/assets/14751ad5-7657-46f2-afd8-97e5a9d89c63" />
 
-Some countries show **very low or negative disposable margins**, meaning living costs can consume most of the average monthly income and create affordability pressure. For example, the **Canada and  the United States has a negative disposable margins (-607.1 and −102.83)**, while **Germany (1211.16)** and **France (1022.58)** have much higher margins, indicating stronger affordability. This suggests that living standards should be assessed using income-minus-cost measures rather than cost-of-living values alone when making location and budgeting decisions.
+Some countries show **very low or negative disposable margins**, meaning living costs can consume most of the average monthly income and create affordability pressure. For example, **Canada and  the United States has a negative disposable margin (-607.1 and −102.83)**, while **Germany (1211.16)** and **France (1022.58)** have much higher margins, indicating stronger affordability. This suggests that living standards should be assessed using income-minus-cost measures rather than cost-of-living values alone when making location and budgeting decisions.
 
 ## Tools Used
 - Microsoft Excel
