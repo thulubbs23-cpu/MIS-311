@@ -13,13 +13,13 @@
 * Missing values: **4 values**
   - _Average monthly income column_: 2 missing values ( C162, C178)  
   - _Region column_: 2 missing values ( E26, E39)  
-=> Handling missing values:
-- Average monthly income column: should be deleted because only 2 lines are missing in 201 → does not greatly affect the overall.
-- Region comlumn: should be deleted because duplicates do not provide additional information and cause errors when calculating averages, totals, and statistical analysis. The four missing values ​​account for approximately 1.98% of the total 202 values.  
- After deletion, there are 198 rows and 5 columns left.
-* Duplicate row: **2 duplicate rows** found and removed
-=> Handling duplicate rows: delete the 2 duplicate rows because they do not carry additional information and do not affect the analysis. The two duplicate rows account for about 0.99% of the total 202 rows. Duplicate rows cause statistical bias, degrade machine learning model performance due to redundant data learning, and disrupt record uniqueness while consuming storage space. Therefore, removing them is necessary to ensure accurate and efficient analysis.  
-=> After deletion, there are 196 rows and 5 columns left.  
+**Handling missing values:**
+- The 2 missing values in the average monthly income column were removed because they represent a very small proportion of the dataset (less than 2%) and could bias affordability calculations if imputed.
+- The 2 missing values in the region column were removed due to insufficient information for accurate classification.
+- Overall, the missing values account for approximately **1.99% of the total 201 observations**, which is unlikely to significantly affect the analysis.
+* Duplicate row: **2 duplicate rows** were found and removed
+=> Handling duplicate rows: delete the 2 duplicate rows because they do not carry additional information and do not affect the analysis. The two duplicate rows account for about 0.99% of the total 201 rows. Duplicate rows cause statistical bias, degrade machine learning model performance due to redundant data learning, and disrupt record uniqueness while consuming storage space. Therefore, removing them is necessary to ensure accurate and efficient analysis.  
+=> After  handling missing values and duplicate records, there are 195 rows and 5 columns left.  
  
 ### **Descriptive Statistics**
 <img width="525" height="296" alt="image" src="https://github.com/user-attachments/assets/bbacf540-6949-4bdd-b62a-efbc0e127a84" />
@@ -39,7 +39,7 @@ The chart shows clear regional differences in both **average cost of living** an
 **Insight 2:**  
 <img width="1048" height="501" alt="image" src="https://github.com/user-attachments/assets/14751ad5-7657-46f2-afd8-97e5a9d89c63" />
 
-Some countries show **very low or negative disposable margins**, meaning living costs can consume most of the average monthly income and create affordability pressure. For example, the **Canada and United States has a negative disposable margin (-607.1 and −102.83)**, while **Germany (1211.16)** and **France (1022.58)** have much higher margins, indicating stronger affordability. This suggests that living standards should be assessed using income-minus-cost measures rather than cost-of-living values alone when making location and budgeting decisions.
+Some countries show **very low or negative disposable margins**, meaning living costs can consume most of the average monthly income and create affordability pressure. For example, the **Canada and  the United States has a negative disposable margins (-607.1 and −102.83)**, while **Germany (1211.16)** and **France (1022.58)** have much higher margins, indicating stronger affordability. This suggests that living standards should be assessed using income-minus-cost measures rather than cost-of-living values alone when making location and budgeting decisions.
 
 ## Tools Used
 - Microsoft Excel
