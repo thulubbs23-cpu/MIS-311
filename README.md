@@ -3,7 +3,7 @@
 *Data Analysis and Insight*
 ### **Data Overview**
 - Description: The Cost of Living dataset provides information on living expenses and income levels across different countries and regions over time. It includes key indicators such as average monthly income, cost of living index, year of observation, and geographic region.
-- Source of data:Provided by MIS 311 course materials (EIU Moodle). The dataset appears to be compiled from publicly available sources such as cost-of-living databases (e.g., Numbeo) and international statistical sources for income data (e.g., IMF/OECD/World Bank), but the original source is not specified in the dataset file.
+- Source of data: The “Cost of Living” dataset provided as part of MIS 311 course materials on EIU Moodle for educational and analytical purposes. The original compiled source is not specified, but such data is typically derived from public cost-of-living and income statistics databases (like Government Agencies and Statistical Organizations; International organizations.)
 - Number of rows: **201 rows**  
 - Number of columns: **5 columns**
 - The variables include both numerical data (average monthly income and cost of living index) and categorical data (country and region), making the dataset suitable for descriptive and exploratory data analysis.
