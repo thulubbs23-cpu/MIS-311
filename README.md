@@ -36,14 +36,13 @@ The descriptive statistics show that the **mean cost of living** is **3703.59**,
 
 ## Key Insights
 **Insight 1:**  
-<img width="757" height="430" alt="image" src="https://github.com/user-attachments/assets/0629b2dc-b8ba-4004-bcb2-7b8f97622dd0" />
+<img width="903" height="524" alt="image" src="https://github.com/user-attachments/assets/5fff5d15-9399-442e-9be2-94384e753e8c" />
 
 The chart shows clear regional differences in both **average cost of living** and **average disposable margin**, highlighting that affordability depends strongly on geographic location. For example, **Africa has the highest average cost of living (~3,960)**, while **Europe has the lowest (~3,555)**, and **North America has the smallest disposable margin (~90)** compared to **Europe (~950)**. This implies that relocation decisions and compensation planning should account for regional affordability rather than relying only on cost-of-living levels.
 => Companies may need location-based salary adjustments or allowances to maintain employee purchasing power across regions.
 
 **Insight 2:**  
-<img width="1022" height="492" alt="image" src="https://github.com/user-attachments/assets/d752c7fb-67c6-4e38-a92f-f68c90295bd2" />
-
+<img width="1040" height="506" alt="image" src="https://github.com/user-attachments/assets/428edba9-8a61-4bb0-a5fa-c58fd6f717f4" />
 
 Some countries show **very low or negative disposable margins**, meaning living costs can consume most of the average monthly income and create affordability pressure. For example, **Canada and  the United States has a negative disposable margin (-607.1 and −102.83)**, while **Germany (1211.16)** and **France (1022.58)** have much higher margins, indicating stronger affordability. This suggests that living standards should be assessed using income-minus-cost measures rather than cost-of-living values alone when making location and budgeting decisions.
 
