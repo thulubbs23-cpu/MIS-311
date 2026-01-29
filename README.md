@@ -38,7 +38,7 @@ The descriptive statistics show that the **mean cost of living** is **3703.59**,
 **Insight 1:**  
 <img width="903" height="524" alt="image" src="https://github.com/user-attachments/assets/5fff5d15-9399-442e-9be2-94384e753e8c" />
 
-The chart shows clear regional differences in both **average cost of living** and **average disposable margin**, highlighting that affordability depends strongly on geographic location. For example, **Africa has the highest average cost of living (~3,960)**, while **Europe has the lowest (~3,555)**, and **North America has the smallest disposable margin (~90)** compared to **Europe (~950)**. This implies that relocation decisions and compensation planning should account for regional affordability rather than relying only on cost-of-living levels.
+The chart shows clear regional differences in both **average cost of living** and **average disposable margin**, highlighting that affordability depends strongly on geographic location. For example, **Africa has the highest average cost of living (~3,963)**, while **Europe has the lowest (~3,554)**, and **North America has the smallest disposable margin (61)** compared to **Europe (~923)**. This implies that relocation decisions and compensation planning should account for regional affordability rather than relying only on cost-of-living levels.
 => Companies may need location-based salary adjustments or allowances to maintain employee purchasing power across regions.
 
 **Insight 2:**  
