@@ -42,7 +42,8 @@ The chart shows clear regional differences in both **average cost of living** an
 => Companies may need location-based salary adjustments or allowances to maintain employee purchasing power across regions.
 
 **Insight 2:**  
-<img width="1048" height="501" alt="image" src="https://github.com/user-attachments/assets/14751ad5-7657-46f2-afd8-97e5a9d89c63" />
+<img width="1022" height="492" alt="image" src="https://github.com/user-attachments/assets/d752c7fb-67c6-4e38-a92f-f68c90295bd2" />
+
 
 Some countries show **very low or negative disposable margins**, meaning living costs can consume most of the average monthly income and create affordability pressure. For example, **Canada and  the United States has a negative disposable margin (-607.1 and −102.83)**, while **Germany (1211.16)** and **France (1022.58)** have much higher margins, indicating stronger affordability. This suggests that living standards should be assessed using income-minus-cost measures rather than cost-of-living values alone when making location and budgeting decisions.
 
