@@ -16,7 +16,7 @@
 **Handling missing values:**
 - The 2 missing values in the average monthly income column were removed because they represent a very small proportion of the dataset (less than 2%) and could bias affordability calculations if imputed.
 - The 2 missing values in the region column were removed due to insufficient information for accurate classification.
-- Overall, the missing values account for approximately **1.99% of the total 201 observations**, which is unlikely to significantly affect the analysis.
+- Overall, the 4 missing values account for approximately **1.99% of the total 201 observations**, which is unlikely to significantly affect the analysis.
 * Duplicate row: **2 duplicate rows** were found and removed
 => Handling duplicate rows: delete the 2 duplicate rows because they do not carry additional information and do not affect the analysis. The two duplicate rows account for about 0.99% of the total 201 rows. Duplicate rows cause statistical bias, degrade machine learning model performance due to redundant data learning, and disrupt record uniqueness while consuming storage space. Therefore, removing them is necessary to ensure accurate and efficient analysis.  
 => After  handling missing values and duplicate records, there are 195 rows and 5 columns left.  
